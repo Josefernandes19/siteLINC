@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/Background.png");
+    background-repeat: repeat;
+    background-color: blue;
+}
+
+.menu{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	text-align: center;
+	font-size: 2em;
+}
+
+.menu table td{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.headerbar{
+	background-repeat: repeat-x;
+	background-image: url(../images/Bar1.png);
+}
+
+.logo{
+	margin: 0 5% 0 0;
+	float: right;
+}
+
+.mainText a:link {
+    color: #d0d0d0;
+}
+
+.mainText a:visited {
+    color: #d0d0d0
+}
+
+.mainText a:hover {
+    color: #606060
+}
+
+.mainText a:active {
+    color: #101010
+}
+
+.mainText{
+	float:left;	
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	font-family: 'Saira', sans-serif;
+	font-size: 1.1em;
+	color: #fcfcff;
+	text-align: top;
+	vertical-align: top;
+}
+
+.tablemaintext{
+	width: 75%;
+	text-align: top;
+	vertical-align: top;
+}
+
+
+.sidebar{
+    background-color: #282828;
+    
+    border: 6px solid;
+    border-image: url("../images/border.png") 20% stretch;
+    margin-left: 1em;
+}
+
+.sidebarstuffs{
+    line-height: 200%;
+    border: none;
+    padding: 0 10%;
+    color: #fcfcff;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-bottom: 0.4em;
+}
+
+.sidebartitle{
+    line-height: 300%;
+    font-size: 2em;
+}
+
+.sidebarnormal{
+    padding: 0.4em;
+    background-color: #202020;
+    font-size: 1.6em;
+}
+
+.sidebarnormal:hover {
+    background-color: #323232;
+    font-size: 1.7em;
+}
+
+.sidebarnormal:active {
+    background-color: #101010;
+    font-size: 1.7em;
+}
+
+.sidebartitle{
+    line-height: 300%;
+    font-size: 2em;
+}
+
+#back{
+	color: #38bed8;
+}
